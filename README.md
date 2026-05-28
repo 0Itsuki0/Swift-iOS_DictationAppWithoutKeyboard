@@ -1,6 +1,6 @@
 #  Swift/iOS: A Better/Alternative Way to Make A Dictation App
 
-**This Repository is under [AGPL License](./LICENSE)**
+**This Repository is under [AGPL License](./LICENSE.md)**
 
 This repository shows an alternative way of making a dictation app
 
@@ -18,7 +18,7 @@ To test the app out,
 5. Paste the dictated content (manually...)
 
 
-For more details on the implementation, please check out My blog: [Swift/iOS: A Better(?) Way to Make A Dictation App]()
+For more details on the implementation, please check out My blog: [Swift/iOS: A Better(?) Way to Make A Dictation App](https://medium.com/@itsuki.enjoy/swift-ios-a-better-way-to-make-a-dictation-app-7badd94103e0)
 
 
 ![](./DictationAppDemo.gif)
