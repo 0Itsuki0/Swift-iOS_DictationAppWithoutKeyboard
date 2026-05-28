@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98B2BE762FC7C4ED00562FCA /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 98B2BE752FC7C4ED00562FCA /* LICENSE.md */; };
+		98B2BE772FC7C4ED00562FCA /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 98B2BE752FC7C4ED00562FCA /* LICENSE.md */; };
+		98E448052FC55C270004B995 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E448042FC55C270004B995 /* WidgetKit.framework */; };
+		98E448072FC55C270004B995 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E448062FC55C270004B995 /* SwiftUI.framework */; };
+		98E448122FC55C280004B995 /* DictationActivityExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 98E448022FC55C270004B995 /* DictationActivityExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		98E44C8F2FC6BEED0004B995 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 98E44C8E2FC6BEED0004B995 /* README.md */; };
+		98E44C902FC6BEED0004B995 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 98E44C8E2FC6BEED0004B995 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98E448102FC55C280004B995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98E447C12FC55B6E0004B995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98E448012FC55C270004B995;
+			remoteInfo = DictationActivityExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		98E448172FC55C280004B995 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				98E448122FC55C280004B995 /* DictationActivityExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98E44A682FC675FB0004B995 /* Embed ExtensionKit Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed ExtensionKit Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		98B2BE752FC7C4ED00562FCA /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		98B2BE782FC7C9DA00562FCA /* DictationAppDemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DictationAppDemo.gif; sourceTree = "<group>"; };
+		98E447C92FC55B6E0004B995 /* DictationWithoutOpenMainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DictationWithoutOpenMainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98E448022FC55C270004B995 /* DictationActivityExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DictationActivityExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		98E448042FC55C270004B995 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		98E448062FC55C270004B995 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		98E44C8E2FC6BEED0004B995 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		98B2BE722FC7B30800562FCA /* Exceptions for "ShortcutsExport" folder in "DictationActivityExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Start dictation.shortcut",
+				"Stop dictation.shortcut",
+			);
+			target = 98E448012FC55C270004B995 /* DictationActivityExtension */;
+		};
+		98E448132FC55C280004B995 /* Exceptions for "DictationActivity" folder in "DictationActivityExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 98E448012FC55C270004B995 /* DictationActivityExtension */;
+		};
+		98E448242FC563760004B995 /* Exceptions for "DictationWithoutOpenMainApp" folder in "DictationWithoutOpenMainApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 98E447C82FC55B6E0004B995 /* DictationWithoutOpenMainApp */;
+		};
+		98E44A712FC678DB0004B995 /* Exceptions for "Shared" folder in "DictationActivityExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Intents/StartRecordingIntent.swift,
+			);
+			target = 98E448012FC55C270004B995 /* DictationActivityExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		98E447CB2FC55B6E0004B995 /* DictationWithoutOpenMainApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				98E448242FC563760004B995 /* Exceptions for "DictationWithoutOpenMainApp" folder in "DictationWithoutOpenMainApp" target */,
+			);
+			path = DictationWithoutOpenMainApp;
+			sourceTree = "<group>";
+		};
+		98E448082FC55C270004B995 /* DictationActivity */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				98E448132FC55C280004B995 /* Exceptions for "DictationActivity" folder in "DictationActivityExtension" target */,
+			);
+			path = DictationActivity;
+			sourceTree = "<group>";
+		};
+		98E4481A2FC55C5B0004B995 /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				98E44A712FC678DB0004B995 /* Exceptions for "Shared" folder in "DictationActivityExtension" target */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		98E44E842FC6DEAB0004B995 /* ShortcutsExport */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				98B2BE722FC7B30800562FCA /* Exceptions for "ShortcutsExport" folder in "DictationActivityExtension" target */,
+			);
+			path = ShortcutsExport;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98E447C62FC55B6E0004B995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98E447FF2FC55C270004B995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E448072FC55C270004B995 /* SwiftUI.framework in Frameworks */,
+				98E448052FC55C270004B995 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98E447C02FC55B6E0004B995 = {
+			isa = PBXGroup;
+			children = (
+				98B2BE752FC7C4ED00562FCA /* LICENSE.md */,
+				98E44E842FC6DEAB0004B995 /* ShortcutsExport */,
+				98E44C8E2FC6BEED0004B995 /* README.md */,
+				98B2BE782FC7C9DA00562FCA /* DictationAppDemo.gif */,
+				98E4481A2FC55C5B0004B995 /* Shared */,
+				98E447CB2FC55B6E0004B995 /* DictationWithoutOpenMainApp */,
+				98E448082FC55C270004B995 /* DictationActivity */,
+				98E448032FC55C270004B995 /* Frameworks */,
+				98E447CA2FC55B6E0004B995 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98E447CA2FC55B6E0004B995 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98E447C92FC55B6E0004B995 /* DictationWithoutOpenMainApp.app */,
+				98E448022FC55C270004B995 /* DictationActivityExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98E448032FC55C270004B995 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98E448042FC55C270004B995 /* WidgetKit.framework */,
+				98E448062FC55C270004B995 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98E447C82FC55B6E0004B995 /* DictationWithoutOpenMainApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98E447D42FC55B6E0004B995 /* Build configuration list for PBXNativeTarget "DictationWithoutOpenMainApp" */;
+			buildPhases = (
+				98E447C52FC55B6E0004B995 /* Sources */,
+				98E447C62FC55B6E0004B995 /* Frameworks */,
+				98E447C72FC55B6E0004B995 /* Resources */,
+				98E448172FC55C280004B995 /* Embed Foundation Extensions */,
+				98E44A682FC675FB0004B995 /* Embed ExtensionKit Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98E448112FC55C280004B995 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				98E447CB2FC55B6E0004B995 /* DictationWithoutOpenMainApp */,
+				98E4481A2FC55C5B0004B995 /* Shared */,
+				98E44E842FC6DEAB0004B995 /* ShortcutsExport */,
+			);
+			name = DictationWithoutOpenMainApp;
+			packageProductDependencies = (
+			);
+			productName = DictationWithoutOpenMainApp;
+			productReference = 98E447C92FC55B6E0004B995 /* DictationWithoutOpenMainApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98E448012FC55C270004B995 /* DictationActivityExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98E448142FC55C280004B995 /* Build configuration list for PBXNativeTarget "DictationActivityExtension" */;
+			buildPhases = (
+				98E447FE2FC55C270004B995 /* Sources */,
+				98E447FF2FC55C270004B995 /* Frameworks */,
+				98E448002FC55C270004B995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				98E448082FC55C270004B995 /* DictationActivity */,
+				98E4481A2FC55C5B0004B995 /* Shared */,
+				98E44E842FC6DEAB0004B995 /* ShortcutsExport */,
+			);
+			name = DictationActivityExtension;
+			packageProductDependencies = (
+			);
+			productName = DictationActivityExtension;
+			productReference = 98E448022FC55C270004B995 /* DictationActivityExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98E447C12FC55B6E0004B995 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					98E447C82FC55B6E0004B995 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					98E448012FC55C270004B995 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+				};
+			};
+			buildConfigurationList = 98E447C42FC55B6E0004B995 /* Build configuration list for PBXProject "DictationWithoutOpenMainApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98E447C02FC55B6E0004B995;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 98E447CA2FC55B6E0004B995 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98E447C82FC55B6E0004B995 /* DictationWithoutOpenMainApp */,
+				98E448012FC55C270004B995 /* DictationActivityExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98E447C72FC55B6E0004B995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B2BE762FC7C4ED00562FCA /* LICENSE.md in Resources */,
+				98E44C8F2FC6BEED0004B995 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98E448002FC55C270004B995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B2BE772FC7C4ED00562FCA /* LICENSE.md in Resources */,
+				98E44C902FC6BEED0004B995 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98E447C52FC55B6E0004B995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98E447FE2FC55C270004B995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98E448112FC55C280004B995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98E448012FC55C270004B995 /* DictationActivityExtension */;
+			targetProxy = 98E448102FC55C280004B995 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		98E447D22FC55B6E0004B995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NLTYK5T6U3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98E447D32FC55B6E0004B995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NLTYK5T6U3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98E447D52FC55B6E0004B995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DictationWithoutOpenMainApp/DictationWithoutOpenMainApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLTYK5T6U3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DictationWithoutOpenMainApp/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "using mic for dictation";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itsuki.enjoy.DictationWithoutOpenMainApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98E447D62FC55B6E0004B995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DictationWithoutOpenMainApp/DictationWithoutOpenMainApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLTYK5T6U3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DictationWithoutOpenMainApp/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "using mic for dictation";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itsuki.enjoy.DictationWithoutOpenMainApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98E448152FC55C280004B995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = DictationActivity/DictationActivityExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLTYK5T6U3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DictationActivity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DictationActivity;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itsuki.enjoy.DictationWithoutOpenMainApp.DictationActivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98E448162FC55C280004B995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = DictationActivity/DictationActivityExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLTYK5T6U3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DictationActivity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DictationActivity;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itsuki.enjoy.DictationWithoutOpenMainApp.DictationActivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98E447C42FC55B6E0004B995 /* Build configuration list for PBXProject "DictationWithoutOpenMainApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98E447D22FC55B6E0004B995 /* Debug */,
+				98E447D32FC55B6E0004B995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98E447D42FC55B6E0004B995 /* Build configuration list for PBXNativeTarget "DictationWithoutOpenMainApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98E447D52FC55B6E0004B995 /* Debug */,
+				98E447D62FC55B6E0004B995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98E448142FC55C280004B995 /* Build configuration list for PBXNativeTarget "DictationActivityExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98E448152FC55C280004B995 /* Debug */,
+				98E448162FC55C280004B995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98E447C12FC55B6E0004B995 /* Project object */;
+}
